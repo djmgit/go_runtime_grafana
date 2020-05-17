@@ -77,6 +77,15 @@ Example target configuration:
  
 ```
 
+## How it looks like
+
+<table>
+        <tr>
+                <td><img src="pics/go_pic_1.png"></td>
+                <td><img src="pics/go_pic_2.png"></td>
+        </tr>
+</table>
+
 
 
 
