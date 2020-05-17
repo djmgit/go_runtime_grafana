@@ -34,6 +34,17 @@ func main() {
 This will expose Go runtime metrics at ```http://127.0.0.1:8888/metrics```
 
 You can send custom metrics to. You can find out more about instrumenting your GOLang app with Prometheus at ther
-offician <a href="https://prometheus.io/docs/guides/go-application/">documentation</a>.
+offician <a href="https://prometheus.io/docs/guides/go-application/" target="_blank">documentation</a>.
 
 ## Adding a target in Prometheus 
+
+Your target must have 3 labels attached to them. These are as follows
+
+- **dc** - The dc where this service and its hosts are deployed. This is just a nomeclature, you can group your service
+           by cluster, team, or any other nomenclature.
+
+- **service** - Name of the service
+
+- **hostname** - Name of the server or anything that will uniquely identify the server.
+
+
