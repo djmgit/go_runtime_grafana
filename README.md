@@ -84,6 +84,14 @@ Example target configuration:
                 <td><img src="pics/go_pic_1.png"></td>
                 <td><img src="pics/go_pic_2.png"></td>
         </tr>
+         <tr>
+                <td><img src="pics/go_pic_3.png"></td>
+                <td><img src="pics/go_pic_5.png"></td>
+        </tr>
+        <tr>
+                <td><img src="pics/go_screen_4.png"></td>
+                <td><img src="pics/go_screen_6.png"></td>
+        </tr>
 </table>
 
 
