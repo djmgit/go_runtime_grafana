@@ -47,4 +47,36 @@ Your target must have 3 labels attached to them. These are as follows
 
 - **hostname** - Name of the server or anything that will uniquely identify the server.
 
+Example target configuration:
+
+```
+- job_name: 'mygoapp-1-dc-1'
+    static_configs:
+      - targets: ['127.0.0.1:2112']
+        labels:
+            dc: "dc1"
+            hostname: "my-goapp-1-server-1"
+            service: "mygoapp-1"
+      - targets: ['127.0.0.1:2113']
+        labels:
+            dc: "dc1"
+            hostname: "mygoapp-1-server-2"
+            service: "mygoapp-1"
+- job_name: 'mygoapp-2-dc-1'
+    static_configs:
+      - targets: ['127.0.0.1:2114']
+        labels:
+            dc: "dc1"
+            hostname: "my-goapp-2-server-1"
+            service: "mygoapp-2"
+      - targets: ['127.0.0.1:2114']
+        labels:
+            dc: "dc1"
+            hostname: "mygoapp-2-server-2"
+            service: "mygoapp-2"
+ 
+```
+
+
+
 
