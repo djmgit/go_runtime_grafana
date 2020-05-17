@@ -77,6 +77,21 @@ Example target configuration:
  
 ```
 
+## Monitored metrices
+
+Some of the runtime metrics this dashboard visualises :
+
+- Process resident memory
+- Process virtual memory
+- Stack memory
+- Heap memory
+- Allocs
+- Open file descriptors
+- Pointer dereference
+- Number of Goroutines
+- Number of OS threads
+- GC time
+
 ## How it looks like
 
 <table>
