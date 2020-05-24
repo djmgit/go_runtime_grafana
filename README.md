@@ -40,7 +40,7 @@ offician <a href="https://prometheus.io/docs/guides/go-application/" target="_bl
 
 Your target must have 3 labels attached to them. These are as follows
 
-- **dc** - The dc where this service and its hosts are deployed. This is just a nomeclature, you can group your service
+- **dc** - The dc where this service and its hosts are deployed. This is just a nomenclature, you can group your service
            by cluster, team, or any other nomenclature.
 
 - **service** - Name of the service
